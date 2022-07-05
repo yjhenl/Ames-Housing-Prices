@@ -2,57 +2,26 @@
 
 ## Introduction
 
-<img src="https://github.com/YJLdata/Instacart-Grocery-Basket-Analysis/blob/main/instacart_logo.png" width="300" height="50">
-
-Instacart, an online grocery store that operates through an app, already has very good sales, but they want to uncover more information about their sales patterns. The objective of this study is to analyze customer behavior and uncover patterns for growth.
+I picked this dataset because I am curious about the factors influencing house price. With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this dataset can help me have a deeper understanding on how the house price is determined. In the future, if I want to buy a house, I would have a sense on the possibilities for price negotiation.
 
 ## Key Questions
-The stakeholders would like to be able to answer the following key questions:
+
+I would like to be able to answer the following key questions:
+
 ```
-● The sales team needs to know what the busiest days of the week and hours of the day are 
-  (i.e., the days and times with the most orders) in order to schedule ads at times when there are fewer orders.
+● Which factors contribute the most to housing prices?
 
-● They also want to know whether there are particular times of the day when people spend the most money, 
-  as this might inform the type of products they advertise at these times.
+● How has the housing prices changed over the years?
 
-● Instacart has a lot of products with different price tags. Marketing and sales want to use simpler price range groupings 
-  to help direct their efforts.
+● Which locations within Ames city limits have higher/lower housing price? 
 
-● Are there certain types of products that are more popular than others? The marketing and sales teams want to know which 
-  departments have the highest frequency of product orders.
-
-● The marketing and sales teams are particularly interested in the different types of customers in their system and how their 
-  ordering behaviors differ. 
-  For example:
-
-      ○   What’s the distribution among users in regards to their brand loyalty 
-          (i.e., how often do they return to Instacart)?
-
-      ○   Are there differences in ordering habits based on a customer’s loyalty status?
-
-      ○   Are there differences in ordering habits based on a customer’s region?
-
-      ○   Is there a connection between age and family status in terms of ordering habits?
-  
-      ○   What different classifications does the demographic information suggest?
-          Age? Income? Certain types of goods? Family status?
-  
-      ○   What differences can you find in ordering habits of different customer profiles? 
-          Consider the price of orders, the frequency of orders, the products customers are ordering, 
-          and anything else you can think of.
  ```
  
 ## Data
 
-The dataset comprises of information on the following parameters:
+The data set contains 2930 observations and a large number of explanatory variables (23 nominal, 23 ordinal, 14 discrete, and 20 continuous) involved in assessing home values.
 
-● orders
-
-● products
-
-● departments
-
-The full details of the data are available here: [The Instacart Online Grocery Shopping Dataset 2017](https://www.instacart.com/datasets/grocery-shopping-2017)
+The full details of the data were compiled by Dean De Cock for use in data science education here: [The Ames Housing dataset]([https://www.kaggle.com/c/house-prices-advanced-regression-techniques])
 
 ## Tools
 
@@ -60,16 +29,12 @@ For this project, the following python libraries were used:
 
 ● pandas, numpy, os - for data analysis
 
-● matplotlib, scipy, and seaborn - for visualization
+● matplotlib, seaborn, folium, json - for visualization
 
-## Executing the code
+● Scipy - for statistical computation
 
-The code is available as jupytor notebooks, available under /scripts/.
+● sklearn - for machine learning algorithms
 
-To lunch the notebbok, open terminal and run the command with specific notebook's title.
+● quandl, statsmodels, warnings for accesss to application programming interface
 
-For example:
 
-● ``` jupyter notebook Data Wrangling and Descriptive Analyses.ipynb ```
-
-● ``` jupyter notebook Visualizations for Key Questions.ipynb ```
