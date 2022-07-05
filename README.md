@@ -1,30 +1,75 @@
 # Ames Housing Prices
 
 ## Introduction
-Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive. The objective of the analyses is to help them with the launch strategy for the new online video service.
 
+<img src="https://github.com/YJLdata/Instacart-Grocery-Basket-Analysis/blob/main/instacart_logo.png" width="300" height="50">
+
+Instacart, an online grocery store that operates through an app, already has very good sales, but they want to uncover more information about their sales patterns. The objective of this study is to analyze customer behavior and uncover patterns for growth.
 
 ## Key Questions
-The Rockbuster Stealth Management Board has asked a series of business questions and they expect data-driven answers that they can use for their 2020 company strategy. Here are the main questions they’d like to answer:
+The stakeholders would like to be able to answer the following key questions:
 ```
-● Which movies contributed the most/least to revenue gain?
+● The sales team needs to know what the busiest days of the week and hours of the day are 
+  (i.e., the days and times with the most orders) in order to schedule ads at times when there are fewer orders.
 
-● What was the average rental duration for all videos?
+● They also want to know whether there are particular times of the day when people spend the most money, 
+  as this might inform the type of products they advertise at these times.
 
-● Which countries are Rockbuster customers based in?
+● Instacart has a lot of products with different price tags. Marketing and sales want to use simpler price range groupings 
+  to help direct their efforts.
 
-● Where are customers with a high lifetime value based?
+● Are there certain types of products that are more popular than others? The marketing and sales teams want to know which 
+  departments have the highest frequency of product orders.
 
-● Do sales figures vary between geographic regions?
-```
+● The marketing and sales teams are particularly interested in the different types of customers in their system and how their 
+  ordering behaviors differ. 
+  For example:
 
-## Resources
-Tools: ```pgAdmin 4```, ```PostgreSQL```, ```DbVisualizer (RDBMS)```
+      ○   What’s the distribution among users in regards to their brand loyalty 
+          (i.e., how often do they return to Instacart)?
 
-Skills: ```SQL (Join, Subqueries, CTE etc.)```
+      ○   Are there differences in ordering habits based on a customer’s loyalty status?
 
-Dataset: [Rockbuster Datasets](https://drive.google.com/drive/u/0/my-drive)
+      ○   Are there differences in ordering habits based on a customer’s region?
 
+      ○   Is there a connection between age and family status in terms of ordering habits?
+  
+      ○   What different classifications does the demographic information suggest?
+          Age? Income? Certain types of goods? Family status?
+  
+      ○   What differences can you find in ordering habits of different customer profiles? 
+          Consider the price of orders, the frequency of orders, the products customers are ordering, 
+          and anything else you can think of.
+ ```
+ 
+## Data
 
-## Data Visualization
-Visualization of the project in Tableau: [Presenting SQL Results](https://public.tableau.com/app/profile/yi.jhen.li/viz/RockbusterSalesAnalysis/Story1) 
+The dataset comprises of information on the following parameters:
+
+● orders
+
+● products
+
+● departments
+
+The full details of the data are available here: [The Instacart Online Grocery Shopping Dataset 2017](https://www.instacart.com/datasets/grocery-shopping-2017)
+
+## Tools
+
+For this project, the following python libraries were used:
+
+● pandas, numpy, os - for data analysis
+
+● matplotlib, scipy, and seaborn - for visualization
+
+## Executing the code
+
+The code is available as jupytor notebooks, available under /scripts/.
+
+To lunch the notebbok, open terminal and run the command with specific notebook's title.
+
+For example:
+
+● ``` jupyter notebook Data Wrangling and Descriptive Analyses.ipynb ```
+
+● ``` jupyter notebook Visualizations for Key Questions.ipynb ```
