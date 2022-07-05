@@ -35,6 +35,6 @@ For this project, the following python libraries were used:
 
 ● sklearn - for machine learning algorithms
 
-● quandl, statsmodels, warnings for accesss to application programming interface
+● quandl, statsmodels - for accesss to application programming interface
 
 
