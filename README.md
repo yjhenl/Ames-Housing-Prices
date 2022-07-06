@@ -23,7 +23,7 @@ I would like to be able to answer the following key questions:
 
 The data set contains 2930 observations and a large number of explanatory variables (23 nominal, 23 ordinal, 14 discrete, and 20 continuous) involved in assessing home values.
 
-The full details of the data were compiled by Dean De Cock for use in data science education here: [The Ames Housing dataset]([https://www.kaggle.com/c/house-prices-advanced-regression-techniques])
+The full details of the data were compiled by Dean De Cock for use in data science education here: [The Ames Housing dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
 ## Tools
 
