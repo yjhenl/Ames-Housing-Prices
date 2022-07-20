@@ -1,4 +1,4 @@
-# Ames Housing Prices
+# Ames Housing 
 
 ## Introduction
 
