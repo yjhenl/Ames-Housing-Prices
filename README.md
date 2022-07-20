@@ -15,7 +15,9 @@ I would like to be able to answer the following key questions:
 
 ● Which locations within Ames city limits have higher/lower housing price? 
 
-● How many new houses are built each year?
+● Is there any preference when people purchasing houses?
+
+● What does the housing price prediction model in Ames looks like?  
 
  ```
  
