@@ -4,7 +4,7 @@
 
 I pick this dataset for practice because I am curious about the factors influencing house price. With 79 variables describing many aspects of residential homes in Ames, Iowa, this dataset can help me have a deeper understanding on how the house price is determined. In the future, if I want to buy a house, I would have a sense on the possibilities for price negotiation.
 
-## Key Questions
+## Key Questions 
 
 I would like to be able to answer the following key questions:
 
